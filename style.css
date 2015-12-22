@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Wire+One);
+html {
+  /*background: url("../../imgs/bg.gif") no-repeat;*/
+  background-size: cover;
+  /*cursor: url("hand.png");*/ }
+body{
+  margin:0;
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#image{
+  display:block;
+  margin: auto;
+  margin-top: 20%;
+}
+
+.st-deco {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -100px;
+  background-color: #EAF4F1;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+  -moz-transform: translateY(-50%) rotate(45deg);
+  -o-transform: translateY(-50%) rotate(45deg);
+  -ms-transform: translateY(-50%) rotate(45deg);
+  transform: translateY(-50%) rotate(45deg); }
+
+.st-panel h2 {
+  font-family: "Wire One", sans-serif;
+  color: #3CF3E4;
+  font-size: 80px;
+  font-weight: 1700;
+  width: 80%;
+  left: 10%;
+  line-height: 50px;
+  margin: -70px 0 0 0;
+  top: 50%;
+  position: absolute;
+  text-align: center;
+  padding: 0;
+  -webkit-backface-visibility: hidden; }
+
+.st-panel p {
+  font-family: "Wire One", sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 22px;
+  color: #F40FA8;
+  z-index: 2;
+  padding: 0;
+  width: 50%;
+  left: 25%;
+  top: 48%;
+  margin: 10px 0 0 0;
+  position: absolute;
+  text-align: center;
+  padding: 0;
+  -webkit-backface-visibility: hidden; }
+
+#st-panel-1 {
+  background-color: #EAF4F1; }
+
+#logo {
+  content: url(../../imgs/mute.png);
+  position: absolute;
+  text-align: center;
+  padding: 0;
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  top: 8%;
+  transform: translate(-50%, -50%); }
